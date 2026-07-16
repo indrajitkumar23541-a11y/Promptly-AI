@@ -1,0 +1,19 @@
+name: Pull requests can't target master branch
+
+on:
+  pull_request:
+    types:
+      - opened
+      - synchronize
+      - reopened
+    branches:
+      - master
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check PR target
+        run: |
+          echo "PR target is fine."
+          exit 0

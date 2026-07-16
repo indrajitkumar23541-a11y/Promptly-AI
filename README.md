@@ -1,5 +1,6 @@
 # Promptly AI
-A web interface for Stable Diffusion, implemented using Gradio library.
+A powerful and custom web interface for generating AI images.
+**Created and Developed by Indrajit Kumar.**
 
 ![](screenshot.png)
 
